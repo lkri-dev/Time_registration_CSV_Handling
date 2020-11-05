@@ -1,3 +1,12 @@
+# -----------------------------------------------------------
+# This project is to read the time registration csv file of UddataPlus.
+# To check ones registration of work time, if any days where missed and to get a bigger overview than what UdataPlus provides.
+#
+# (C) 2020 Lærke Brandhøj Kristensen, Aalborg, Denmark
+# Released under GNU Public License (GPL)
+# email lkri@techcollege.dk
+# -----------------------------------------------------------
+
 import csv
 from datetime import datetime, time, date, timedelta
 import holidays
