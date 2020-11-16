@@ -72,7 +72,7 @@ def get_time_differance(datetime1, datetime2):
 """Finds workdays that proberbly wheren't registered"""
 def find_empty_workdays(dates_list):
     empty_days = []
-    date: datetime = dates_list[0][0].date()
+    date: datetime.date = dates_list[0][0].date()
     while dates_list[-1][0].date() > date:
         if check_if_workday(date):
             search_result = search_list_for_datetime_by_datetime(dates_list, date)
